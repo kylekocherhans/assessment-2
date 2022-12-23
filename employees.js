@@ -66,8 +66,9 @@ empOne.getSchedule();
 */
 
 //CODE HERE
-let empTwo = {...empOne};
-empTwo.name = "Nick";
+let empTwo = {...empOne, name: "Nick"};
+// let empTwo = {...empOne};
+// empTwo.name = "Nick";
 
 
 //////////////////PROBLEM 2////////////////////
